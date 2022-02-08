@@ -42,7 +42,7 @@ import { ref } from "vue";
 
 const metaData = {
   // sets document title
-  title: "Home",
+  title: "Bienvenue",
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // titleTemplate: title => `${title} - My Website`,
 

@@ -45,13 +45,13 @@ const login = () => {
 };
 
 const logout = () => {
-  signOut(auth)
-    .then(() => {
-      // signOut
-    })
-    .catch(() => {
-      // An error happened.
-    });
+  signOut(auth);
+  // .then(() => {
+  //   // signOut
+  // })
+  // .catch(() => {
+  //   // An error happened.
+  // });
 };
 
 export { login, logout, auth, onAuthStateChanged };
